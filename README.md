@@ -95,7 +95,7 @@ The service is now running and waiting for files.
 
 ### 5. Add Data
 
-With the container running, drop a CSV file containing transaction data (e.g., `test.csv`) into the local `input` directory.
+With the container running, drop a CSV file containing transaction data (e.g., `test.csv`) into the local `input` directory. If the `input` directory already contains `test.csv`, you can remove it and then add it again in order to trigger the process.
 
 ### 6. Get Results
 
